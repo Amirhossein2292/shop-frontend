@@ -1,0 +1,22 @@
+@keyframes cartIconAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .cart-icon {
+    transition: transform 0.3s; /* Add a smooth transition effect when the size changes */
+  }
+  
+  .cart-icon:hover,
+  .cart-icon:hover {
+    transform: scale(1.5); /* Increase the size of the cart icon on hover */
+    animation: cartIconAnimation 0.5s infinite; /* Apply the animation on hover */
+  }
+  
